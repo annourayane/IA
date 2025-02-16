@@ -1,0 +1,8 @@
+pour compiler : ( on oeuvre le terminal a src : ) : 
+javac -cp .:../lib/junit-4.13.2.jar -d ../build/ systeme_expert/tests/*.java
+pourexecuter : 
+java -cp .:../lib/junit-4.13.2.jar:../lib/hamcrest-core-1.3.jar:../build/ org.junit.runner.JUnitCore systeme_expert.tests.AdditionTest
+
+veuillez changer le nom de la classe de test.
+
+

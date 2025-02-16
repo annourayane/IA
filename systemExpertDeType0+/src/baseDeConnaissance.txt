@@ -1,0 +1,30 @@
+Faits_booleens : avoirFaitPrison , habiteChateau , intelligent , fort , riche , grand , lourd , malhonnete , parentsRiches , pauvre , travailleur , chercheur , thesard , leger .
+Faits_entiers : fortuneEnfant, fortune , fortuneParents, poids , taille , travailParJour , combien . 
+Faits_symboliques : profession .
+
+~ chercheur .
+~ !thesard . 
+~ profession = medecin . 
+~ poids = (-46 + 95) .
+~ fortuneParents = (1000/10 * (25 + 5 + 80) / 3 + 50 * (12 - 5) + 14000 / 2) - 1000 . 
+
+>> malhonnete & fort ==> riche .
+>> parentsRiches & intelligent ==> riche .
+>> travailleur | intelligent ==> riche .
+>> fortune > 10000 ==> riche .
+>> profession = medecin ==> riche .
+>> profession = informaticien ==> riche .
+>> profession = fonctionnaire ==> pauvre . 
+>> !habiteChateau ==> pauvre .
+>> riche ==> !pauvre .
+>> pauvre ==> !riche .
+>> avoirFaitPrison ==> malhonnete . 
+>> grand & lourd ==> fort . 
+>> taille > 185 ==> grand . 
+>> poids > 95 ==> lourd .
+>> poids < 50 ==> leger .
+>> poids < 50 ==> fortune = (2 * 1000) - 1 . 
+>> fortuneParents > 10000 ==> parentsRiches . 
+>> travailParJour > 8 ==> travailleur .
+>> travailParJour > 15 & pauvre ==> profession = salarie .
+#
