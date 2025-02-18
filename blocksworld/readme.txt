@@ -1,6 +1,6 @@
 projet réalisé par : 
-ANNOU Rayane 22312297     GROUPE : 2A
-Emam Mohamed Elmamy 22019076    GROUPE 2A 
+ANNOU Rayane    GROUPE : 2A
+Emam Mohamed Elmamy    GROUPE 2A 
 
 Nous avons terminé les deux TP : le premier sur la planification, dont les tests ont réussi, et le second sur la représentation des variables et des contraintes, qui a également passé tous ses tests.
 et nous avons aussi  terminé les deux derniers Tp : Problemes de satisfaction de contraintes et extraction de connaissances dont tous les tests ont réussi.
